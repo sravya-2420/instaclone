@@ -1,0 +1,162 @@
+.posts-container {
+  width: 700px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.post-card {
+  width: 100%;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.post-user {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+
+.post-user img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.post-user a {
+  color: #262626;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.post-image {
+  width: 100%;
+  height: 460px;
+  display: block;
+  object-fit: cover;
+}
+
+.post-content {
+  padding: 12px 15px 15px;
+}
+
+.post-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.action-button {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  color: #262626;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-button:hover {
+  opacity: 0.6;
+}
+
+.action-button.liked {
+  color: #ef476f;
+}
+
+.comment-button {
+  font-size: 19px;
+}
+
+.likes {
+  margin: 8px 0;
+  color: #262626;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.caption {
+  margin: 5px 0;
+  color: #262626;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.caption strong {
+  font-weight: 600;
+}
+
+.comment {
+  margin: 8px 0;
+  color: #262626;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.created-at {
+  margin: 10px 0 0;
+  color: #777777;
+  font-size: 11px;
+}
+
+.comment-box {
+  width: 100%;
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.comment-box input {
+  flex: 1;
+  height: 36px;
+  padding: 0 10px;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  outline: none;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+.comment-box input:focus {
+  border-color: #3987e8;
+}
+
+.comment-box button {
+  height: 36px;
+  padding: 0 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3987e8;
+  color: #ffffff;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.comment-box button:hover {
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 750px) {
+  .posts-container {
+    width: 100%;
+    padding: 0 15px 40px;
+    box-sizing: border-box;
+  }
+
+  .post-image {
+    height: auto;
+    min-height: 300px;
+  }
+}

@@ -1,0 +1,119 @@
+.page-not-found-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.page-not-found-content {
+  width: 100%;
+  min-height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+}
+
+.page-not-found-illustration {
+  width: 145px;
+  height: 145px;
+  position: relative;
+  margin-bottom: 22px;
+}
+
+.hat {
+  width: 85px;
+  height: 115px;
+  position: absolute;
+  left: 30px;
+  top: 8px;
+  background-color: #3987e8;
+  clip-path: polygon(35% 0%, 78% 100%, 0% 100%);
+  transform: rotate(-2deg);
+  overflow: hidden;
+}
+
+.hat-stripe {
+  position: absolute;
+  width: 100px;
+  height: 17px;
+  left: -5px;
+  background-color: #ffffff;
+  transform: rotate(-12deg);
+}
+
+.stripe-one {
+  top: 30px;
+}
+
+.stripe-two {
+  top: 62px;
+}
+
+.stripe-three {
+  top: 94px;
+}
+
+.hat-base {
+  width: 130px;
+  height: 28px;
+  position: absolute;
+  left: 7px;
+  bottom: 5px;
+  background-color: #252b35;
+  border-radius: 50%;
+}
+
+.eye {
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  top: 7px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.eye-one {
+  left: 46px;
+}
+
+.eye-two {
+  left: 72px;
+}
+
+.page-not-found-content h1 {
+  margin: 0 0 12px;
+  color: #262626;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.page-not-found-content p {
+  margin: 0 0 5px;
+  color: #9b9b9b;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+}
+
+.home-page-button {
+  width: 68px;
+  height: 25px;
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #3987e8;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 8px;
+  font-weight: 500;
+  text-decoration: none;
+}
